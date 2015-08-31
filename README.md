@@ -17,16 +17,22 @@ Options :
 
 Test :
 ------
-To run the test you need to have Docker installed.
+To run the test locally you need to have Docker installed.
 ```bash
-    # if you use the saio private registry :
+    # unit test
     $ npm login
     $ npm install
     $ npm test
+    # integration tst
+    $ bash ./tasks/crossbar/start.sh
+    $ bash ./tasks/test.sh
+
         # stdout if everything goes well :)
-    # some Docker stuff... then the interesting part:
-    What is the answer to the Great Question of Life,
-    the Universe and Everything ?
-    42
+        # some Docker stuff... then the interesting part:
+        What is the answer to the Great Question of Life,
+        the Universe and Everything ?
+        42
+
+    $  bash ./tasks/crossbar/stop.sh
     # and again some Docker stuff
 ```

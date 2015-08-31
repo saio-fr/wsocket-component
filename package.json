@@ -1,6 +1,6 @@
 {
   "name": "@saio/wsocket-component",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "WSocket service-component",
   "main": "./src/main.js",
   "dependencies": {
