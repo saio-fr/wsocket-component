@@ -2,7 +2,7 @@
 
 wsocket-component
 =========
-wsocket-component is a ms-saio component integration for lib-wsocket.  
+wsocket-component is a ms-saio component integration for wsocket-lib.  
 wsocket-component extends wsocket-lib so :
 * it has the same methods (+ start/stop, which just call open/close),
 * the same attributes and
@@ -20,10 +20,7 @@ Test :
 To run the test you need to have Docker installed.
 ```bash
     # if you use the saio private registry :
-    $ npm set registry <saio npm address>
-    # if not, just set NODE_ENV to dev
-    $ export NODE_ENV=dev
-
+    $ npm login
     $ npm install
     $ npm test
         # stdout if everything goes well :)

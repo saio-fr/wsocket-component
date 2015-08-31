@@ -23,12 +23,12 @@ var WSocketTest = function(container) {
   var that = this;
 
   that.noobHuman = container.use('noobHuman', WSocket, {
-    url: 'ws://0.0.0.0:8041/',
+    url: 'ws://localhost:8041/',
     realm: 'test'
   });
 
   that.greatAVI = container.use('greatAVI', WSocket, {
-    url: 'ws://0.0.0.0:8042/',
+    url: 'ws://localhost:8042/',
     realm: 'test',
     authId: 'auth',
     password: 'auth'
