@@ -1,0 +1,28 @@
+{
+  "name": "@saio/wsocket-component",
+  "version": "0.1.1",
+  "description": "WSocket service-component",
+  "main": "./src/main.js",
+  "dependencies": {
+    "@saio/wsocket": "*",
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "@saio/service-runner": "*",
+    "eslint": "*"
+  },
+  "scripts": {
+    "pretest": "eslint . && bash ./tasks/crossbar/start.sh",
+    "test": "bash ./tasks/test.sh",
+    "posttest": "bash ./tasks/crossbar/stop.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:saio-fr/wsocket-component.git"
+  },
+  "author": "saio",
+  "bugs": {
+    "url": "https://github.com/saio-fr/wsocket-component/issues"
+  },
+  "homepage": "https://github.com/saio-fr/wsocket-component"
+}
