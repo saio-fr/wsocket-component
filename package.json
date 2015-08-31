@@ -11,7 +11,7 @@
     "@saio/service-runner": "*",
     "eslint": "*"
   },
-  "scripts": {  
+  "scripts": {
     "test": "eslint ."
   },
   "repository": {
