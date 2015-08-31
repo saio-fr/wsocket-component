@@ -11,10 +11,8 @@
     "@saio/service-runner": "*",
     "eslint": "*"
   },
-  "scripts": {
-    "pretest": "eslint . && bash ./tasks/crossbar/start.sh",
-    "test": "bash ./tasks/test.sh",
-    "posttest": "bash ./tasks/crossbar/stop.sh"
+  "scripts": {  
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
